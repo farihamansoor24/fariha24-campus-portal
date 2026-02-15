@@ -50,9 +50,29 @@ span{
 table tr td{
 color: rgb(70, 77, 77) !important;
 }
+.login-form{
+    background-image: linear-gradient(to left,rgb(123, 189, 123),rgb(142, 197, 142),white);
+}
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+.login-heading{
+    color: var(--green-color);
+    text-shadow: 5px 0 5px green;
+}
+.dashboard_banner{
+    background-image: url('./images/green-park.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
 
-.login-card{
-            width: 100%;
-            max-width: 400px;
-            border-radius: 15px;
-        }
+}
+.banner-content{
+    width:50%;
+    height: auto;
+    background-color: rgba(128, 128, 128, .6);
+}
